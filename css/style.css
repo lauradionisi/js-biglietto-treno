@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+main {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 800px;
+    background-color: #001632;
+    border: 1px solid #001632;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 4px lightgrey ;
+}  
+
+.ticket {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 250px;
+    width: 800px;
+    background-color: #ddfad1;
+    border: 1px solid #001632;
+    border-radius: 15px;
+}
+.ticket h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: #0cd977;
+    font-size: 30px;
+}
+
+.left_ticket {
+    float: left;
+    border-right: 2px dotted #001632;
+    height:100%;
+    width: 20%;
+}
+
+.right_ticket {
+    float: left;
+    height: 250px;
+    line-height: 250px;
+    width: 80%;
+    padding-left: 20px;
+}
+.right_ticket h1 {
+    font-size: 28px;
+
+}
